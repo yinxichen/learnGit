@@ -1,0 +1,15 @@
+Git常用命令
+
+git init
+
+上传代码
+
+git add .        （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
+
+git commit  -m  "提交信息"  （注：“提交信息”里面换成你需要，如“这次提交什么都没做”）
+
+git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
+
+下拉代码
+
+git clone 后面是需要克隆的项目地址
